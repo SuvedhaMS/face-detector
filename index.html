@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>📊 Visitor Dashboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .stats-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+        }
+        .card {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            min-width: 250px;
+        }
+        .card h2 {
+            font-size: 1.2rem;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        .btn-download {
+            display: inline-block;
+            margin: 20px auto;
+            background: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+        th {
+            background: #007bff;
+            color: white;
+        }
+        tr:hover {
+            background: #f1f1f1;
+        }
+        .view-link {
+            color: #007bff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .view-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🧠 Intelligent Face Tracking and Registration System</h1>
+
+<div class="stats-container">
+    <div class="card">
+        <h2>Total Registered Faces</h2>
+        <p>{{ total_registered }}</p>
+    </div>
+    <div class="card">
+        <h2>Unique Visitors (Recent)</h2>
+        <p>{{ unique_visitors }}</p>
+    </div>
+</div>
+
+<div style="text-align: center;">
+    <a href="/download_csv" class="btn-download">⬇️ Download Visitor Log (CSV)</a>
+</div>
+
+<h2 style="text-align: center;">🧾 Recent Visitors</h2>
+{% if logs %}
+<table>
+    <thead>
+        <tr>
+            <th>Timestamp</th>
+            <th>Person ID</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for log in logs %}
+        <tr>
+            <td>{{ log["Timestamp"] }}</td>
+            <td>{{ log["Person ID"] }}</td>
+            <td>
+                {% if log["Image"] %}
+                <a class="view-link" href="/logs/{{ log['Image'].split('/')[-1] }}" target="_blank">View</a>
+                {% else %}
+                N/A
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p style="text-align:center; color: #666;">No logs to display.</p>
+{% endif %}
+
+</body>
+</html>
