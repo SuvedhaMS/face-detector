@@ -1,6 +1,3 @@
-# face-detector
-Intelligent Face Tracking and Registration System
-
 Intelligent Face Tracker with Auto-Registration and Visitor Counting
 
 🔧 Setup Instructions
@@ -84,3 +81,4 @@ deep_sort_realtime
 🔚 Credits
 
 This project is a part of a hackathon run by https://katomaran.com
+

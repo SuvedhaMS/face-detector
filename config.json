@@ -1,0 +1,4 @@
+{
+  "frame_skip": 5,
+  "face_db_path": "database/faces.pkl"
+}

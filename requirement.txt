@@ -1,0 +1,6 @@
+flask
+pandas
+opencv-python
+ultralytics
+insightface
+deep_sort_realtime

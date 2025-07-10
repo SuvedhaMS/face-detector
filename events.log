@@ -1,0 +1,150 @@
+2025-07-09 22:34:16.180437 - EXIT: person_1
+2025-07-09 22:53:34,756 - MobileNetV2 Embedder for Deep Sort initialised
+2025-07-09 22:53:34,757 - - gpu enabled: False
+2025-07-09 22:53:34,757 - - half precision: False
+2025-07-09 22:53:34,757 - - max batch size: 16
+2025-07-09 22:53:34,758 - - expects BGR: True
+2025-07-09 22:53:35,345 - DeepSort Tracker initialised
+2025-07-09 22:53:35,345 - - max age: 30
+2025-07-09 22:53:35,347 - - appearance threshold: 0.2
+2025-07-09 22:53:35,347 - - nms threshold: OFF
+2025-07-09 22:53:35,348 - - max num of appearance features: None
+2025-07-09 22:53:35,348 - - overriding track class : No
+2025-07-09 22:53:35,348 - - today given : No
+2025-07-09 22:53:35,349 - - in-build embedder : Yes
+2025-07-09 22:53:35,350 - - polygon detections : No
+2025-07-09 22:54:09,268 - Recognized 
+2025-07-09 22:54:14,529 - Recognized 
+2025-07-09 22:54:15,119 - Recognized suvedha
+2025-07-09 22:54:15,681 - Recognized suvedha
+2025-07-09 22:54:16,202 - Recognized suvedha
+2025-07-09 22:54:16,718 - Recognized suvedha
+2025-07-09 22:54:17,304 - Recognized suvedha
+2025-07-09 22:54:17,822 - Recognized suvedha
+2025-07-09 22:54:18,371 - Recognized suvedha
+2025-07-09 22:54:18,931 - Recognized 
+2025-07-09 22:54:19,463 - Recognized 
+2025-07-09 22:54:20,056 - Recognized 
+2025-07-09 22:54:20,585 - Recognized 
+2025-07-09 22:54:21,068 - Recognized suvedha
+2025-07-09 22:54:21,610 - Recognized 
+2025-07-09 22:54:22,144 - Recognized suvedha
+2025-07-09 22:54:22,632 - Recognized suvedha
+2025-07-09 22:54:23,142 - Recognized suvedha
+2025-07-09 22:54:23,680 - Recognized suvedha
+2025-07-09 22:54:24,170 - Recognized 
+2025-07-09 22:54:24,732 - Recognized 
+2025-07-09 22:54:25,269 - Detected unknown person
+2025-07-09 22:54:25,733 - Detected unknown person
+2025-07-09 22:54:26,284 - Detected unknown person
+2025-07-09 22:54:26,853 - Recognized suvedha
+2025-07-09 22:54:27,374 - Recognized 
+2025-07-09 22:54:27,895 - Recognized suvedha
+2025-07-09 22:54:28,434 - Recognized suvedha
+2025-07-09 22:54:28,917 - Recognized suvedha
+2025-07-09 22:54:29,452 - Recognized suvedha
+2025-07-09 22:54:29,972 - Recognized 
+2025-07-09 22:54:30,524 - Recognized 
+2025-07-09 22:54:31,091 - Recognized suvedha
+2025-07-09 22:54:31,631 - Detected unknown person
+2025-07-09 22:54:32,173 - Detected unknown person
+2025-07-09 22:54:32,738 - Recognized 
+2025-07-09 22:54:33,251 - Recognized 
+2025-07-09 22:54:33,748 - Recognized 
+2025-07-09 22:54:34,325 - Recognized 
+2025-07-09 22:54:34,800 - Recognized 
+2025-07-09 22:54:35,362 - Detected unknown person
+2025-07-09 22:54:35,881 - Recognized 
+2025-07-09 22:54:36,378 - Recognized 
+2025-07-09 22:54:36,874 - Detected unknown person
+2025-07-09 22:54:37,394 - Recognized 
+2025-07-09 22:54:37,986 - Recognized 
+2025-07-09 22:54:38,518 - Recognized suvedha
+2025-07-09 22:54:39,082 - Recognized suvedha
+2025-07-09 22:54:39,609 - Recognized suvedha
+2025-07-09 22:54:40,157 - Recognized suvedha
+2025-07-09 22:54:40,659 - Recognized suvedha
+2025-07-09 22:54:41,216 - Recognized suvedha
+2025-07-09 22:54:41,676 - Detected unknown person
+2025-07-09 22:54:42,224 - Recognized suvedha
+2025-07-09 22:54:42,759 - Recognized suvedha
+2025-07-09 22:54:43,331 - Recognized suvedha
+2025-07-09 22:54:43,880 - Recognized suvedha
+2025-07-09 22:54:44,418 - Recognized suvedha
+2025-07-09 22:54:44,917 - Recognized suvedha
+2025-07-09 22:54:45,487 - Recognized suvedha
+2025-07-09 22:54:46,027 - Detected unknown person
+2025-07-09 22:54:46,594 - Recognized suvedha
+2025-07-09 22:54:47,220 - Recognized suvedha
+2025-07-09 22:54:47,748 - Recognized suvedha
+2025-07-09 22:54:48,343 - Recognized suvedha
+2025-07-09 22:54:48,867 - Recognized suvedha
+2025-07-09 22:54:49,429 - Recognized suvedha
+2025-07-09 22:54:49,946 - Recognized suvedha
+2025-07-09 22:54:50,584 - Recognized suvedha
+2025-07-09 22:54:51,196 - Recognized 
+2025-07-09 22:54:51,751 - Recognized 
+2025-07-09 22:54:52,305 - Recognized 
+2025-07-09 22:54:52,800 - Recognized 
+2025-07-09 22:54:53,275 - Recognized 
+2025-07-09 22:54:53,782 - Recognized 
+2025-07-09 22:54:54,268 - Recognized 
+2025-07-09 22:54:54,732 - Recognized 
+2025-07-09 23:01:20,003 - MobileNetV2 Embedder for Deep Sort initialised
+2025-07-09 23:01:20,014 - - gpu enabled: False
+2025-07-09 23:01:20,014 - - half precision: False
+2025-07-09 23:01:20,014 - - max batch size: 16
+2025-07-09 23:01:20,014 - - expects BGR: True
+2025-07-09 23:01:20,483 - DeepSort Tracker initialised
+2025-07-09 23:01:20,483 - - max age: 30
+2025-07-09 23:01:20,483 - - appearance threshold: 0.2
+2025-07-09 23:01:20,483 - - nms threshold: OFF
+2025-07-09 23:01:20,483 - - max num of appearance features: None
+2025-07-09 23:01:20,483 - - overriding track class : No
+2025-07-09 23:01:20,484 - - today given : No
+2025-07-09 23:01:20,484 - - in-build embedder : Yes
+2025-07-09 23:01:20,484 - - polygon detections : No
+2025-07-09 23:02:17,383 - Recognized suvedha
+2025-07-09 23:02:23,812 - Recognized 
+2025-07-09 23:02:25,437 - Detected unknown person
+2025-07-09 23:02:26,057 - Detected unknown person
+2025-07-09 23:02:26,734 - Detected unknown person
+2025-07-09 23:02:27,464 - Detected unknown person
+2025-07-09 23:02:28,226 - Detected unknown person
+2025-07-09 23:02:34,016 - Detected unknown person
+2025-07-10 01:34:40,612 - MobileNetV2 Embedder for Deep Sort initialised
+2025-07-10 01:34:40,618 - - gpu enabled: False
+2025-07-10 01:34:40,618 - - half precision: False
+2025-07-10 01:34:40,618 - - max batch size: 16
+2025-07-10 01:34:40,619 - - expects BGR: True
+2025-07-10 01:34:41,156 - DeepSort Tracker initialised
+2025-07-10 01:34:41,156 - - max age: 30
+2025-07-10 01:34:41,156 - - appearance threshold: 0.2
+2025-07-10 01:34:41,157 - - nms threshold: OFF
+2025-07-10 01:34:41,157 - - max num of appearance features: None
+2025-07-10 01:34:41,157 - - overriding track class : No
+2025-07-10 01:34:41,157 - - today given : No
+2025-07-10 01:34:41,157 - - in-build embedder : Yes
+2025-07-10 01:34:41,157 - - polygon detections : No
+2025-07-10 01:35:20,723 - Detected unknown person
+2025-07-10 01:39:06,799 - MobileNetV2 Embedder for Deep Sort initialised
+2025-07-10 01:39:06,805 - - gpu enabled: False
+2025-07-10 01:39:06,810 - - half precision: False
+2025-07-10 01:39:06,810 - - max batch size: 16
+2025-07-10 01:39:06,810 - - expects BGR: True
+2025-07-10 01:39:07,593 - DeepSort Tracker initialised
+2025-07-10 01:39:07,593 - - max age: 30
+2025-07-10 01:39:07,593 - - appearance threshold: 0.2
+2025-07-10 01:39:07,593 - - nms threshold: OFF
+2025-07-10 01:39:07,593 - - max num of appearance features: None
+2025-07-10 01:39:07,594 - - overriding track class : No
+2025-07-10 01:39:07,594 - - today given : No
+2025-07-10 01:39:07,594 - - in-build embedder : Yes
+2025-07-10 01:39:07,594 - - polygon detections : No
+2025-07-10 01:39:46,437 - Recognized suvedha
+2025-07-10 01:39:51,781 - Recognized 
+2025-07-10 01:39:53,867 - Detected unknown person
+2025-07-10 01:39:54,691 - Detected unknown person
+2025-07-10 01:40:02,048 - Recognized 
+2025-07-10 01:40:03,605 - Recognized suvedha
+2025-07-10 01:40:13,848 - Recognized 
